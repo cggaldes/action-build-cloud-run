@@ -11,6 +11,9 @@ inputs:
   service:
     description: 'Name of the service in Cloud Run'
     required: true
+  port:
+    description: 'Port of the service in Cloud Run'
+    required: true
   project:
     description: 'GCP project'
     required: true

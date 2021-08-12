@@ -18,4 +18,5 @@ gcloud beta run deploy "$INPUT_SERVICE" \
   --region "$INPUT_REGION" \
   --platform managed \
   --allow-unauthenticated \
+  --port "$INPUT_PORT" \
   ${ENV_FLAG}
